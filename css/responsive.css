@@ -1,0 +1,119 @@
+@media screen and (min-width:800px) {
+
+    .header {
+        position: relative;
+        --wave-bottom: url(../images/bg-curve-desktop.svg);
+        padding-bottom: 20rem;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2rem;
+    }
+
+    .first__figure {
+        max-width: 47rem;
+    }
+
+    .email__form {
+        flex-direction: row;
+    }
+
+    .first__texts,
+    .productive__texts {
+        text-align: left;
+
+    }
+
+    .email__cta {
+        padding: 1.5rem 3rem;
+    }
+
+    .email__in {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 3rem;
+        padding-left: .5rem;
+    }
+
+    .first__paragraph {
+        padding-right: 3rem;
+    }
+
+    .first__tittle {
+        padding-right: 5rem;
+    }
+
+    .productive {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: .5rem;
+        padding: 3.5rem 2.5rem 1.5rem 2.5rem;
+        margin: 0;
+        width: 90%;
+        font-size: 1.2rem;
+        max-width: 40rem;
+        box-shadow: 1rem 1rem 1.6rem rgba(0, 0, 0, 0.13);
+        margin-top: 4rem;
+    }
+
+    .productive__figure {
+        max-width: 50rem;
+    }
+
+    .productive__paragraph {
+        max-width: 48rem;
+    }
+
+    .productive__tittle {
+        font-size: 3.5rem;
+    }
+
+    .acces__container {
+        display: flex;
+        gap: 30%;
+    }
+
+    .acces__texts {
+        text-align: left;
+    }
+
+    .acces__paragraph {
+        padding: 0;
+        max-width: 48rem;
+    }
+
+    .acces__tittle {
+        font-size: 2.5rem;
+    }
+
+    .email__form--acces {
+        width: 55%;
+        margin: 0;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .email__form--acces :nth-child(2) {
+        width: 25rem;
+    }
+
+    .footer {
+        height: unset;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        justify-content: space-evenly;
+        padding: 8rem 0;
+    }
+
+}
